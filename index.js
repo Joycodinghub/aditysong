@@ -18,6 +18,7 @@ function toggleMusic(){
     }
     
 }
+audio.loop=true;
 
 function changeText(){
     if(isText){
