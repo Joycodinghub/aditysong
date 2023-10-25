@@ -13,12 +13,12 @@ function toggleMusic(){
     else{
         audio = new Audio("happy-bday-full-song-abcd-2-varun-dhawan-shraddha-kapoor-sachin-jigar-d_SkkoX771.mp3");
         audio.play();
-       
+       audio.loop=true;
         isPlaying = true;
     }
     
 }
-audio.loop=true;
+
 
 function changeText(){
     if(isText){
